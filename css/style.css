@@ -1,0 +1,223 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+#logo{
+    margin-left:100px;
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+
+  .centered p {
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    text-transform: uppercase;
+    font-size: 2em;
+    font-style:bold;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+
+ #carouselExampleControlsNoTouching{
+    height: 10%;
+  }
+
+  .content{
+    margin: 3%;
+  }
+
+
+  .toggle-active {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ff6612;
+    font-family: 'Lato', sans-serif;
+    background: url(../image/read-more.png) no-repeat 100% 11px;
+    border: 0;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+#collapse2{
+    margin: 3%;
+}
+
+
+/* (A) WRAPPER */
+.fullwrap {
+    position: relative; /* required for (c2) */
+    max-width: 500px; /* optional */
+  }
+  /* (B) RESPONSIVE IMAGE */
+.fullwrap img { width: 100%; }
+ 
+/* (C) CAPTION */
+.fullcap {
+  /* (C1) DIMENSIONS */
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+ 
+  /* (C2) POSITION */
+  position: absolute;
+  top: 0; left: 0;
+  text-align: center;
+  padding-top: 30%;
+  /* (C3) COLORS */
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+ 
+/* (D) SHOW/HIDE */
+.fullcap {
+  visibility: none; opacity: 0;
+  transition: opacity 0.3s;
+}
+.fullwrap:hover .fullcap {
+  visibility: visible; opacity: 1;
+}
+
+
+
+.container{
+    margin: 3%;
+}
+
+
+.best-time-visit-outer {
+	float: left;
+	width: 100%;
+	padding: 35px 0 0
+}
+
+.best-time-visit-outer .heading-h2 .view-tours {
+	right: 0
+}
+
+.best-time-visit-main {
+	float: left;
+	width: 100%;
+	padding-bottom: 20px
+}
+
+.best-box {
+	float: left;
+	width: 33.33%;
+	padding-right: 75px
+}
+
+.best-visit-ico {
+	float: left
+}
+
+.best-visit-details {
+	overflow: hidden;
+	display: block;
+	padding-left: 16px
+}
+
+.best-visit-details h4 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	text-transform: capitalize;
+	color: #403e4d;
+	font-family: 'Lato', sans-serif;
+	padding-bottom: 15px
+}
+
+.best-visit-details p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	color: #403e4d;
+	font-family: 'Lato', sans-serif
+}
+
+
+.footer-icone1 {
+	background-position: 0 -66px!important;
+	width: 16px;
+	height: 19px
+}
+
+.footer-icone2 {
+	background-position: 0 -95px!important;
+	width: 15px;
+	height: 16px
+}
+
+.footer-icone3 {
+	background-position: 0 -121px!important;
+	width: 21px;
+	height: 22px
+}
+
+.footer-icone4 {
+	background-position: 0 -153px!important;
+	width: 11px;
+	height: 21px
+}
+
+.footer-icone5 {
+	background-position: 0 -184px!important;
+	width: 18px;
+	height: 12px
+}
+
+.footer-icone6 {
+	background-position: 0 -206px!important;
+	width: 16px;
+	height: 16px
+}
+
+
+/* login css*/
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+
+
+
+
+
