@@ -1,2 +1,2 @@
 # Tourism-Website
- A Kerala Tourism Website
+ Kerala tourism website
