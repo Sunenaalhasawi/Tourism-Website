@@ -199,9 +199,9 @@ height: 100%;
 }
 
 /*card dist*/
-#header {
+/* #header {
   background: url(/images/dist.jpg) center center / cover no-repeat ;
-}
+} */
 .container-dist{
   margin-top: 100px;
   padding-top: 1%;
