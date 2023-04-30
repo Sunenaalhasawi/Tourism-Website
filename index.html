@@ -73,7 +73,7 @@
 
       <div class="content">
         <h4>About Kerala Tourism</h4>
-        <p>
+        <p style="text-align: justify;">
             Encompassing serenity, Kerala is a charming South Indian destination that should be in every traveller’s bucket list. Adorned with the emerald backwaters, sprawling and lush tea estates, pristine hill stations, and azure Arabian Sea, Kerala tourism boasts numerous tourist places with which you will fall in love instantly.<br><br>
 
             In North Kerala, districts like Kasaragod, Kannur, Wayanad, Kozhikode, and Malappuram have many attractions for the tourists. Wayanad offers a lovely hill station holiday whereas Kozhikode offers a great beach holiday and an opportunity of bird watching.<br><br>
@@ -82,12 +82,14 @@
 
             In South Kerala Kottayam, Pathanamthitta, Alappuzha, Kollam, Thiruvananthapuram are ready with a variety of experiences like backwaters and houseboat in Alappuzha; beach vacations in Kollam, and a glance at rich history of Kerala at Pathanamthitta.<br><br>
 
-            Kerala tourism isn’t only about imbibing natural beauty but its rich culture that is festooned with dances, festivals, delectable cuisine, literature, Ayurveda therapies, and art & craft. Kerala has it all, and you have to see it, to believe it.
+            Kerala tourism isn’t only about imbibing natural beauty but its rich culture that is festooned with dances, festivals, delectable cuisine, literature, Ayurveda therapies, and art & craft. Kerala has it all, and you have to see it, to believe it<span id="dots">...</span>
+           
         </p>
-        <button href="#collapse2" class="toggle-active">Read More </button>
+        <!-- <button href="#collapse2" class="toggle-active">Read More </button> -->
+        <button href="#" class="toggle-active" onclick="expandCollapse()" id="read_more">Read More </button>
      </div>
-     <div id="collapse2" style="display: none;">
-       <p>
+     <div id="collapse2"   style="display: none; ">
+       <p style="margin-left: 3%;  margin-right: 3%; text-align: justify;">
 
            The state opens its doors to beach holidays with picturesque beaches like Varkala, Kovalam and Marari. Giving a good run to pristine beaches are the backwaters of Kerala that can be best experienced in Alleppey and Kumarakom.
 
@@ -95,8 +97,8 @@
 
            We, at Tour My India would be happy to help you explore the scenic destination of Kerala, and therefore, offer to you the finest Kerala holiday packages and deals. With our best Kerala travel packages, you can rest assured for a hassle free and memorable holiday in Kerala.
       </p>
-      <h5>List of Top 10 Most Visited Tourist Destinations of Kerala</h5>
-      <ul>
+      <h5 style="margin-left: 3%;  margin-right: 3%;text-align: justify;">List of Top 10 Most Visited Tourist Destinations of Kerala</h5>
+      <ul style="list-style: square; margin-left: 3%;  margin-right: 3%;text-align: justify;">
         <li>Alleppey: Kerala’s favourite backwater tourist destination, Alleppey is famed for offering an incredible experience of staying and cruising in a traditional houseboat.</li>
         <li>Munnar: Adorned with myriad tea estates and rolling hills, Munnar is without a doubt the best hill station in Kerala. It is a must visit tourist place in Kerala for a relaxing holiday as well as relishing adventure activities.</li>
         <li>Kochi: A cosmopolitan city with a bustling port, Kochi is where the modern lifestyle meets the traditional one. The city is the perfect reflection of Kerala and has many experiences up its sleeves.</li>
@@ -191,7 +193,7 @@
            <div class="card">
                 
                    <div class="fullwrap">
-                    <img src="images/7.jpg" height="220px"/>
+                    <img src="images/alappuzha.jpg" height="220px"/>
                     <div class="fullcap">
                       Alappuzha is bounded by the Laccadive Sea on its west. The town has a network of lakes, lagoons and fresh water rivers<br>
                     </div>
@@ -239,7 +241,7 @@
 
 
     <div class="best-time-visit-outer">
-        <div class="container">
+        <div class="container-visit">
            <div class="best-time-visit-main">
               <div class="heading-h2">
                  <h2>Best Time to Visit Kerala</h2>
@@ -278,9 +280,27 @@
         </div>
      </div>
 
+     <footer>
+      <!-- <div class="footer_info"> -->
+      <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-dark">
+      <!-- Copyright -->
+      <div class="copyright">
+        Copyright © 2023. All rights reserved.
+      </div>
 
+      <div class="addres-footer">
+        <ul>
+           <li><label class="footer-icone1"></label>Thrissur - Kerala 680561</li>
+           <li><label class="footer-icone4"></label>+91-8715656789</li>
+           <li><label class="footer-icone5"></label>info@keralatourism.com</li>
+           <li><label class="footer-icone6"></label>+91-9545454587 (Only for Whatsapp)</li>
+          
+        </ul>
+     </div>
+      </div>
+    </footer>
 
-     <footer class="footer-outer cf">
+     <!-- <footer class="footer-outer cf">
         <div class="container cf">
  
            <div class="footer-box footer-box1">
@@ -313,7 +333,27 @@
               </div>
            </div>
         </div>
-     </footer>
+     </footer> -->
+
+     <script>
+      function expandCollapse(){
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("collapse2");
+        var btnText = document.getElementById("read_more");
+
+         if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+         } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+            btnText.style.display="none"
+            moreText.style.margin='3%'
+         }
+      }
+     </script>
 
 </body>
 </html>

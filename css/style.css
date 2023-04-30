@@ -67,6 +67,9 @@
 }
 
 
+
+
+
 /* (A) WRAPPER */
 .fullwrap {
     position: relative; /* required for (c2) */
@@ -107,6 +110,22 @@
     margin: 3%;
 }
 
+.container-visit{
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 1%;
+}
+
+
+.view-tours {
+  position: relative;
+		top: unset;
+		float: left;
+		width: 100%;
+		right: unset;
+		margin-top: 15px
+}
+
 
 .best-time-visit-outer {
 	float: left;
@@ -126,7 +145,7 @@
 
 .best-box {
 	float: left;
-	width: 33.33%;
+	
 	padding-right: 75px
 }
 
@@ -161,43 +180,6 @@
 }
 
 
-.footer-icone1 {
-	background-position: 0 -66px!important;
-	width: 16px;
-	height: 19px
-}
-
-.footer-icone2 {
-	background-position: 0 -95px!important;
-	width: 15px;
-	height: 16px
-}
-
-.footer-icone3 {
-	background-position: 0 -121px!important;
-	width: 21px;
-	height: 22px
-}
-
-.footer-icone4 {
-	background-position: 0 -153px!important;
-	width: 11px;
-	height: 21px
-}
-
-.footer-icone5 {
-	background-position: 0 -184px!important;
-	width: 18px;
-	height: 12px
-}
-
-.footer-icone6 {
-	background-position: 0 -206px!important;
-	width: 16px;
-	height: 16px
-}
-
-
 /* login css*/
 
 .divider:after,
@@ -215,6 +197,104 @@ height: calc(100% - 73px);
 height: 100%;
 }
 }
+
+/*card dist*/
+#header {
+  background: url(/images/dist.jpg) center center / cover no-repeat ;
+}
+.container-dist{
+  margin-top: 100px;
+  padding-top: 1%;
+  background-color: lightskyblue;
+  padding-bottom:25px;
+
+}
+
+.caption-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 10px 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+#nameerror,#mailerror,#phoneerror{
+  padding: 0 30px 0 50px;
+  color: #999;
+  max-height: 0;
+  transition: 0.28s;
+  overflow: hidden;
+  font-style: italic;
+}
+
+
+
+/* .footer_info{
+  height: 50px;
+  float: left;
+  width: 100%;
+  background-color: #403e4d;
+} */
+
+.copyright{
+  color: #eee;
+  float: left;
+}
+
+
+/* address footer */
+
+
+.addres-footer {
+	padding-left: 33px;
+  color: #eee;
+  float: right;
+	/* border-left: 1px solid #787d82; */
+}
+
+
+
+.addres-footer li {
+	display: inline-block;
+	font: 16px 'Calibri';
+	color: #eee;
+	padding-right: 10px
+} 
+
+/* .addres-footer li img {
+	vertical-align: middle;
+	margin-right: 8px
+} */
+
+.lead{
+  color: black;
+  margin-left:20px !important;
+  text-align: justify;
+  font-size: 16px;
+  margin: 5%;
+  width: 100%;
+  
+  }
+/* #kerala_map{
+  width: 250px;
+  height: 400;
+  float: right;
+  margin-left: 5%;
+  position: absolute;
+} */
+
+
+#kerala_map {
+  position: relative; 
+  /* max-width: 250px; */
+  width: 50%; 
+}
+
 
 
 
