@@ -243,7 +243,6 @@ height: 100%;
 
 .copyright{
   color: #eee;
-  float: left;
 }
 
 
@@ -276,24 +275,11 @@ height: 100%;
   margin-left:20px !important;
   text-align: justify;
   font-size: 16px;
-  margin: 5%;
-  width: 100%;
+  margin: 2%;
   
   }
-/* #kerala_map{
-  width: 250px;
-  height: 400;
-  float: right;
-  margin-left: 5%;
-  position: absolute;
-} */
 
 
-#kerala_map {
-  position: relative; 
-  /* max-width: 250px; */
-  width: 50%; 
-}
 
 
 
